@@ -1,0 +1,15 @@
+<h1> Files ... </h1>
+
+
+<input type="file" class="file-input"
+       (change)="onFileSelected($event)">
+
+
+<h1>Existing files ...</h1>
+<div *ngFor="let file of files">
+  <div class="file">
+    <div class="file-name">{{ file.name }}</div>
+    <button (click)="deleteFile(file.id)">Delete</button>
+    <button (click)="downloadFile(file)">Download</button>
+  </div>
+</div>

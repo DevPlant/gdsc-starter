@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "gdsc-doc-project-ui",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

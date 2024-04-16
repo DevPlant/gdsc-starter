@@ -1,0 +1,33 @@
+/* src/app/register/register.component.css */
+.register-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label, input, button {
+  width: 100%;
+  display: block;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.text-danger {
+  color: red;
+  font-size: 12px;
+}

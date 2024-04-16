@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gdsc-doc-project": {
+      "hosting": {
+        "gdsc-doc-project-ui": [
+          "gdsc-doc-project"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gdsc-doc-project"
+  }
+}
